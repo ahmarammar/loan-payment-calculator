@@ -16,7 +16,7 @@ export default function LoanCalculationsResults({ calculationsResult }) {
 
   return (
     <div className="grid grid-cols-1 sm:grid-cols-3">
-      <div className="border-e border-gray-300 px-12 py-8 dark:border-zinc-800">
+      <div className="border-e-0 border-b sm:border-b-0 sm:border-e border-gray-300 px-12 py-8 dark:border-zinc-800">
         <div className="flex flex-col items-center gap-2">
           <span>
             <svg
@@ -40,7 +40,7 @@ export default function LoanCalculationsResults({ calculationsResult }) {
         </div>
         <div className="text-2xl text-center mt-5">{calculationsResult.monthlyPayment ? monthlyPayment : "---"}</div>
       </div>
-      <div className="border-e border-gray-300 px-12 py-8 dark:border-zinc-800">
+      <div className="border-e-0 border-b sm:border-b-0 sm:border-e border-gray-300 px-12 py-8 dark:border-zinc-800">
         <div className="flex flex-col items-center gap-2">
           <span>
             <svg
