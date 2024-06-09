@@ -36,7 +36,7 @@ export default function LoanCalculationsResults({ calculationsResult }) {
               <path d="M12 18V6" />
             </svg>
           </span>
-          <span className="font-semibold text-center">Monthly Payment</span>
+          <span className="font-semibold text-center whitespace-nowrap">Monthly Payment</span>
         </div>
         <div className="text-2xl text-center mt-5">{calculationsResult.monthlyPayment ? monthlyPayment : "---"}</div>
       </div>
@@ -60,7 +60,7 @@ export default function LoanCalculationsResults({ calculationsResult }) {
               <circle cx="17.5" cy="17.5" r="2.5" />
             </svg>
           </span>
-          <span className="font-semibold text-center">Total Interest</span>
+          <span className="font-semibold text-center whitespace-nowrap">Total Interest</span>
         </div>
         <div className="text-2xl text-center mt-5">{calculationsResult.totalInterest ? totalInterest : "---"}</div>
       </div>
@@ -83,7 +83,7 @@ export default function LoanCalculationsResults({ calculationsResult }) {
               <line x1="2" x2="22" y1="10" y2="10" />
             </svg>
           </span>
-          <span className="font-semibold text-center">Total Payment</span>
+          <span className="font-semibold text-center whitespace-nowrap">Total Payment</span>
         </div>
         <div className="text-2xl text-center mt-5">{calculationsResult.totalPayment ? totalPayment : "---"}</div>
       </div>
